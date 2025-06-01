@@ -1,0 +1,17 @@
+{
+  "name": "bite-away-vapi-webhook",
+  "version": "1.0.0",
+  "description": "VAPI webhook for FieldRoutes integration",
+  "main": "api/fieldroutes.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "echo 'Deployed to Vercel'"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
